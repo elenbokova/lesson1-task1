@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    font-family: "Inter", "Arial", sans-serif;
+    color: #353535;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 50px;
+}
+
+.container {
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px
+}
+
+main {
+    background-color: rgb(255, 244, 193);
+    padding: 20px 20px 40px;
+}
+
+main .user {
+    position: relative;
+    min-height: 60px;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: rgb(114, 114, 114);
+    color: #fafafa;
+}
+
+main .icons {
+    position: absolute;
+    right: 0;
+    padding: 15px;
+}
+
+main .edit-icon,
+main .delete-icon {
+    padding: 5px;
+    cursor: pointer;
+}
+
+main .edit-icon:hover,
+main .delete-icon:hover {
+    opacity: 0.5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(114, 114, 114);
+}
+
+form legend {
+    color:  rgb(255, 244, 193);
+}
+
+form input,
+form button {
+    padding: 15px 5%;
+    margin-bottom: 10px;
+    outline: none;
+    color: #000000;
+}
